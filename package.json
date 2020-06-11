@@ -1,6 +1,6 @@
 {
   "name": "hexo-all-minifier",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Minify HTML, CSS, JS and Image files.",
   "main": "index",
   "scripts": {
@@ -12,11 +12,11 @@
     "lib": "./lib"
   },
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 10.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:chenzhutian/hexo-all-minifier.git"
+    "url": "git@github.com:yanzhe919/hexo-all-minifier.git"
   },
   "keywords": [
     "hexo",
@@ -27,17 +27,17 @@
   "author": "Chen Zhutian <zhutian.chen@outlook.com> (http://chenzhutian.org)",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.3",
-    "cheerio": "^1.0.0-rc.2",
-    "clean-css": "^4.2.1",
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.3",
+    "clean-css": "^4.2.3",
     "html-minifier": "^4.0.0",
-    "imagemin": "^6.1.0",
-    "imagemin-gifsicle": "^6.0.1",
-    "imagemin-jpegtran": "^6.0.0",
-    "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-optipng": "^6.0.0",
-    "imagemin-pngquant": "^8.0.0",
-    "imagemin-svgo": "^7.0.0",
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.0",
+    "imagemin-svgo": "^8.0.0",
     "minimatch": "^3.0.4",
     "uglify-es": "^3.3.9"
   },
